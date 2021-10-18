@@ -68,7 +68,7 @@ export default class Autocomplete extends Component {
       selected: null,
       ariaHint: true
     }
-
+    console.log("in autocomplete constructor");
     this.handleComponentBlur = this.handleComponentBlur.bind(this)
     this.handleKeyDown = this.handleKeyDown.bind(this)
     this.handleUpArrow = this.handleUpArrow.bind(this)
